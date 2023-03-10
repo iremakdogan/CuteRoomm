@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 86f0c0aea855e82419339bfffec2a0fd
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Gard\u0131rop"
+    second: {fileID: 2100000, guid: e000b6552e21cae4eb2fd8487bdd521c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Hal\u0131"
+    second: {fileID: 2100000, guid: b205bf84388a42f459ec56e09481dad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPI
+    second: {fileID: 2100000, guid: 002610bbb5f54504d98c51fed1373240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karyola
+    second: {fileID: 2100000, guid: 52aafdcfb8a40ff47a34fdec528907b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Kitapl\u0131kKapak1"
+    second: {fileID: 2100000, guid: 48b34f8188b892940a4a66bfea0111ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme
+    second: {fileID: 2100000, guid: 6a2c732801ae4734bb38b4863682cce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.001
+    second: {fileID: 2100000, guid: 0ee83e133bb819343ae07e7a498c8631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.003
+    second: {fileID: 2100000, guid: e71d7949b3eaabe4792cd22667d36248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.005
+    second: {fileID: 2100000, guid: 3cf25899dd154f5419f19778afd63bc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.006
+    second: {fileID: 2100000, guid: 8a7484b7991bf384985b482cc5c9b22e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.007
+    second: {fileID: 2100000, guid: 9d3772942101ea64080f4b179b0c5e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.008
+    second: {fileID: 2100000, guid: 82dd0c3defe56db49aaf246347ecf1fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.009
+    second: {fileID: 2100000, guid: b06bf43c43d4120439e83ff4be8a0956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.010
+    second: {fileID: 2100000, guid: 0e7e06d47cc890b429bbb88bee00f41a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.011
+    second: {fileID: 2100000, guid: 8a7484b7991bf384985b482cc5c9b22e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.012
+    second: {fileID: 2100000, guid: ce6cd64c73b4ab543a1b7f2d80d2aa28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.015
+    second: {fileID: 2100000, guid: a3f8c99b3cec2f34997f9775cfbbb8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.016
+    second: {fileID: 2100000, guid: 0ee83e133bb819343ae07e7a498c8631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malzeme.017
+    second: {fileID: 2100000, guid: a3f8c99b3cec2f34997f9775cfbbb8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parke
+    second: {fileID: 2100000, guid: 1673718138449ec43b228ef8064c2f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ayaklar
+    second: {fileID: 2100000, guid: 9d3772942101ea64080f4b179b0c5e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cam
+    second: {fileID: 2100000, guid: 67115baf42ee2954393c456e835ffcfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: duvar
+    second: {fileID: 2100000, guid: c11f350308d91aa4f8c92124e81c8786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ekran
+    second: {fileID: 2100000, guid: 9d3772942101ea64080f4b179b0c5e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kapkolu
+    second: {fileID: 2100000, guid: 9d3772942101ea64080f4b179b0c5e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "kitapl\u0131k"
+    second: {fileID: 2100000, guid: 48b34f8188b892940a4a66bfea0111ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kol.001
+    second: {fileID: 2100000, guid: 002610bbb5f54504d98c51fed1373240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kulak
+    second: {fileID: 2100000, guid: e000b6552e21cae4eb2fd8487bdd521c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pencere.001
+    second: {fileID: 2100000, guid: 6717b1d140e8dda4fb43eededf371f75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sandalye
+    second: {fileID: 2100000, guid: 64cce0d0e1cdc6541ad3efd6988796a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "sand\u0131k"
+    second: {fileID: 2100000, guid: 53bfc619859111046875df33d5cb42b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "yast\u0131k"
+    second: {fileID: 2100000, guid: b5a664a8eeff54c4f95f57e80c4c9ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\xC7al\u0131\u015FmaMasas\u0131"
+    second: {fileID: 2100000, guid: 6ea730afab88eb640a87ec716cd2fb30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\xD6RT\xDC"
+    second: {fileID: 2100000, guid: 1326e9accf1bb16488e70c1c5562b212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\xE7ar\u015Faf"
+    second: {fileID: 2100000, guid: de7aab9cbdcb674469187b7f096a1541, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

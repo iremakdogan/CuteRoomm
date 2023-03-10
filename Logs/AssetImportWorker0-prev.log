@@ -1,0 +1,1164 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 12169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UNİTY PROJELER/CuteRoom/CuteRoom
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50362
+Successfully changed project path to: D:/UNİTY PROJELER/CuteRoom/CuteRoom
+D:/UNİTY PROJELER/CuteRoom/CuteRoom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3016] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1917356307 [EditorId] 1917356307 [Version] 1048832 [Id] WindowsEditor(7,NIRVANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3016] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1917356307 [EditorId] 1917356307 [Version] 1048832 [Id] WindowsEditor(7,NIRVANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 189.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNİTY PROJELER/CuteRoom/CuteRoom/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   22.21.13.8205
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006273 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 152.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  1.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1716ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (642ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (88.1 KB). Loaded Objects now: 3921.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 8.089000 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.333500 ms MarkObjects: 7.183200 ms  DeleteObjects: 0.150200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 163521.294524 seconds.
+  path: Assets/Anarşi Tasarım/Oda2.blend
+  artifactKey: Guid(d2d1872114b4921448da7f5606ec3323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2.blend using Guid(d2d1872114b4921448da7f5606ec3323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fad44250811738adc68988d091c82c') in 1.938075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.525776 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e6b6e75626cd40eaec4269afb8b815') in 1.678060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.889404 seconds.
+  path: Assets/Anarşi Tasarım/Materials/BilgisayarU.mat
+  artifactKey: Guid(9d3772942101ea64080f4b179b0c5e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/BilgisayarU.mat using Guid(9d3772942101ea64080f4b179b0c5e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5043c1126401d9b7f2b8ab12bdf38ae1') in 0.026051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anarşi Tasarım/Materials/KapiU.mat
+  artifactKey: Guid(002610bbb5f54504d98c51fed1373240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/KapiU.mat using Guid(002610bbb5f54504d98c51fed1373240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070809caeb1404d86369163c3f45948') in 0.015764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Materials/CamU.mat
+  artifactKey: Guid(67115baf42ee2954393c456e835ffcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/CamU.mat using Guid(67115baf42ee2954393c456e835ffcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e2effaa9c971552fdb3e6bbcf89f16') in 0.015686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 531.024128 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434caa316a916cec9aa1c17ffaf5ccd2') in 1.471263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 497.912707 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9d6bbd851f6645db96dc4c4530ae27') in 2.599733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 374.551078 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf0478af091673161a5ca5dbd98d99f') in 1.519934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.669868 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e9273df7dac385ec307652beeb480') in 1.687364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.454905 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2d4dd33f99d8e16b45154a7e34677e') in 2.504383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1149.674187 seconds.
+  path: Assets/Anarşi Tasarım/Materials/KitaplikU.mat
+  artifactKey: Guid(48b34f8188b892940a4a66bfea0111ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/KitaplikU.mat using Guid(48b34f8188b892940a4a66bfea0111ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526346ae9604040b3a2912a4f2108769') in 0.059182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Anarşi Tasarım/Materials/OrtuU.mat
+  artifactKey: Guid(1326e9accf1bb16488e70c1c5562b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/OrtuU.mat using Guid(1326e9accf1bb16488e70c1c5562b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afb29826ff0beb0d3b6b63d4e71426e') in 0.032755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anarşi Tasarım/Materials/SandalyeU.mat
+  artifactKey: Guid(64cce0d0e1cdc6541ad3efd6988796a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/SandalyeU.mat using Guid(64cce0d0e1cdc6541ad3efd6988796a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22743c8f04cd8fca079f6c10a3f09173') in 0.028091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Anarşi Tasarım/Materials/KomodinU.mat
+  artifactKey: Guid(8f05e8d074f807a4681f4fb75ff6312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/KomodinU.mat using Guid(8f05e8d074f807a4681f4fb75ff6312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d3a2f5215bb065642ae3a6445a2de7') in 0.035735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Anarşi Tasarım/Materials/YastikU.mat
+  artifactKey: Guid(b5a664a8eeff54c4f95f57e80c4c9ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/YastikU.mat using Guid(b5a664a8eeff54c4f95f57e80c4c9ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128e77472faabdac7aecfd47b030d465') in 0.031414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Anarşi Tasarım/Materials/YatakU.mat
+  artifactKey: Guid(52aafdcfb8a40ff47a34fdec528907b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/YatakU.mat using Guid(52aafdcfb8a40ff47a34fdec528907b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d42f0399f23466c61566be788438e53') in 0.035842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Anarşi Tasarım/Materials/PencereU.mat
+  artifactKey: Guid(6717b1d140e8dda4fb43eededf371f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Materials/PencereU.mat using Guid(6717b1d140e8dda4fb43eededf371f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b916a9f0244c12ddf09fa939f3f653a') in 0.024041 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (884ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (603ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.6 KB). Loaded Objects now: 3969.
+Memory consumption went from 124.1 MB to 124.1 MB.
+Total: 11.939200 ms (FindLiveObjects: 0.652500 ms CreateObjectMapping: 2.048500 ms MarkObjects: 9.053800 ms  DeleteObjects: 0.182400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3639.116928 seconds.
+  path: Assets/Anarşi Tasarım/Oda2-1.blend
+  artifactKey: Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Oda2-1.blend using Guid(86f0c0aea855e82419339bfffec2a0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e8fe1e6b5a713cb68f78e72387e42d') in 1.906035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.458708 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs
+  artifactKey: Guid(986dbaa706aca464e835d0ebec83f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs using Guid(986dbaa706aca464e835d0ebec83f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f1fae080647cad1a3c8cb3e3179428') in 0.014624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.088821 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Duvarlar.prefab
+  artifactKey: Guid(04b8568a0cd1e834682177e3fd0c685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Duvarlar.prefab using Guid(04b8568a0cd1e834682177e3fd0c685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62602030fc92639a23c94b744555dfcf') in 0.028415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.346528 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Hali.prefab
+  artifactKey: Guid(56b4ee1ab97c10141aec9e18a7fe5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Hali.prefab using Guid(56b4ee1ab97c10141aec9e18a7fe5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a8694d59645ff9aa04db86310aac01') in 0.064473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.899859 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Kapi.prefab
+  artifactKey: Guid(fb8e8feb16bd8c141953bf4a9650d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Kapi.prefab using Guid(fb8e8feb16bd8c141953bf4a9650d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b328feaa8d617c2c3d7ca3bbf6659') in 0.026595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.112505 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Pencere.prefab
+  artifactKey: Guid(fb7992a997a868c47bd29c7f29193554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Pencere.prefab using Guid(fb7992a997a868c47bd29c7f29193554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e239e88227965b6dd6bb027748a656') in 0.025405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.238271 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Plane.prefab
+  artifactKey: Guid(a948b01a4c707af45bc3226378d3c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Plane.prefab using Guid(a948b01a4c707af45bc3226378d3c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd113f109f350a9caeffc385b67b773') in 0.032311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.961657 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Tavan.prefab
+  artifactKey: Guid(66211fc124b385047a16ee196ff0b3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Tavan.prefab using Guid(66211fc124b385047a16ee196ff0b3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7edc2eafb5d90e33a7f8af041e6e5f7') in 0.031461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.050660 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Sandik.prefab
+  artifactKey: Guid(b467c8c8293cdb946b8b3cdbe9cf07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Sandik.prefab using Guid(b467c8c8293cdb946b8b3cdbe9cf07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d362af6eb0a9318856edddaba485666') in 0.066142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.597668 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Sandik.prefab
+  artifactKey: Guid(b467c8c8293cdb946b8b3cdbe9cf07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Sandik.prefab using Guid(b467c8c8293cdb946b8b3cdbe9cf07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6a4bdd3ae50f5bd2a1d40e0f191c4a') in 0.035355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.268678 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/SandikKapak.prefab
+  artifactKey: Guid(b58621c19c0613c4f945fcaafa908d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/SandikKapak.prefab using Guid(b58621c19c0613c4f945fcaafa908d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0303d2d343065a4559e406c0f4062e') in 0.034344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.187907 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Tavan 1.prefab
+  artifactKey: Guid(042460213904bbb4e80ac19d74fc953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Tavan 1.prefab using Guid(042460213904bbb4e80ac19d74fc953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48a0f3ce480849fc58aba6e264d1748') in 0.024405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.087564 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/KARYOLA.prefab
+  artifactKey: Guid(11f27ffa039d68044866827f112bb8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/KARYOLA.prefab using Guid(11f27ffa039d68044866827f112bb8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe9dc01b2ab60c7550a895b17ac588f') in 0.050268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.965246 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Yastik.prefab
+  artifactKey: Guid(6ca9b3f9caa098440972d0262a20cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Yastik.prefab using Guid(6ca9b3f9caa098440972d0262a20cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efe10855de472c4ee392c9a46ad6f92') in 0.051565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Ortu.prefab
+  artifactKey: Guid(a78d253e91d515242bccba20133df6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Ortu.prefab using Guid(a78d253e91d515242bccba20133df6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e37f05b960543ea9380daf8bdf7bf') in 0.061775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.262920 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/CalismaMasasiKapak.prefab
+  artifactKey: Guid(a0461c31796c7ae42b1e7539138cf200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/CalismaMasasiKapak.prefab using Guid(a0461c31796c7ae42b1e7539138cf200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bd623436fc7a6804986ce268901ad6') in 0.045062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/CalismaMasasi.prefab
+  artifactKey: Guid(9249fb1086a98e24cb4d31e7a2f62979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/CalismaMasasi.prefab using Guid(9249fb1086a98e24cb4d31e7a2f62979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd339d11cb97c761f74cc9a8aaa1f281') in 0.056229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Sandalye.prefab
+  artifactKey: Guid(c28cbb5d8668cb04ca8668a4e00b92ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Sandalye.prefab using Guid(c28cbb5d8668cb04ca8668a4e00b92ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5d8d441404f29dc63424e950494ae0') in 0.054357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.658912 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/K.Cekmece.002.prefab
+  artifactKey: Guid(38b5e7c0946182f40a931e79b6981eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/K.Cekmece.002.prefab using Guid(38b5e7c0946182f40a931e79b6981eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f757f52609f6b7d3aa208de13a35f3a5') in 0.045161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/K.Cekmece.003.prefab
+  artifactKey: Guid(fe1a4104521138444b3ba5cbc501eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/K.Cekmece.003.prefab using Guid(fe1a4104521138444b3ba5cbc501eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c2a0498338bf435b0f7c5e33b1f17') in 0.053144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Komodin.prefab
+  artifactKey: Guid(03b8d8fc3198dca46b78cd8e5c3c07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Komodin.prefab using Guid(03b8d8fc3198dca46b78cd8e5c3c07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50824907fba71411a30be3142fc63ff0') in 0.063835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.454112 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/DOLAP.prefab
+  artifactKey: Guid(8a5a26005d6d85e4e9d08ffc1c3fcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/DOLAP.prefab using Guid(8a5a26005d6d85e4e9d08ffc1c3fcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cd9715559e38dd36cbd230b3fb1690') in 0.033971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/DolapKapak.001.prefab
+  artifactKey: Guid(daf0b13a838ad064a8204d7e05a688c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/DolapKapak.001.prefab using Guid(daf0b13a838ad064a8204d7e05a688c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098eebf8d19090d8151235df46db06b') in 0.055093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/DolapCekmece.002.prefab
+  artifactKey: Guid(9fb819002ad863b40b2ece154ddcc0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/DolapCekmece.002.prefab using Guid(9fb819002ad863b40b2ece154ddcc0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aead5ac46b9d928598004a01c954fd') in 0.063028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/DolapCekmece.001.prefab
+  artifactKey: Guid(139295e81fa143a4abeb4a2f3082712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/DolapCekmece.001.prefab using Guid(139295e81fa143a4abeb4a2f3082712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d99036651fbef9a7c78e32e02767b1') in 0.060142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/DolapKapak.002.prefab
+  artifactKey: Guid(71bcadeae85befe4089ed0e71d0d6533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/DolapKapak.002.prefab using Guid(71bcadeae85befe4089ed0e71d0d6533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7843da8c720d7585f800cfb76908dd92') in 0.052688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.009511 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.026.prefab
+  artifactKey: Guid(978b90da7c863be43815f38d4981eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.026.prefab using Guid(978b90da7c863be43815f38d4981eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783f4de5609e3fedeb816e0cc389da9c') in 0.026313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005719 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/bilgisayar.prefab
+  artifactKey: Guid(362f7e53d56e7ae4bad1eaa2a046db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/bilgisayar.prefab using Guid(362f7e53d56e7ae4bad1eaa2a046db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa6cd9aa6fe64cdd4f5ac6be2f731de') in 0.026892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.028.prefab
+  artifactKey: Guid(e82010605a17f844faf7dd14d7837a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.028.prefab using Guid(e82010605a17f844faf7dd14d7837a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621fcb3a92473cc2749717c8871fee9') in 0.025186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.030.prefab
+  artifactKey: Guid(88d1a607689595547860876127e223ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.030.prefab using Guid(88d1a607689595547860876127e223ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee7af78922daa5359fee1531992df14') in 0.030780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.019.prefab
+  artifactKey: Guid(136ee466ce292d84a9b18ec31cf1e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.019.prefab using Guid(136ee466ce292d84a9b18ec31cf1e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2bc70b04be650587b3d6d3c5fd4a7c') in 0.028809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.022.prefab
+  artifactKey: Guid(c9a5a519603ee3b40ab08f8cfa25b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.022.prefab using Guid(c9a5a519603ee3b40ab08f8cfa25b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fe155bc94b92d3492536a988f567e2') in 0.032762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.023.prefab
+  artifactKey: Guid(76a7b5a06e9fbe14baedc6941667d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.023.prefab using Guid(76a7b5a06e9fbe14baedc6941667d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc73fdeab18b0c3ee4c70a7ae472dba1') in 0.032618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.032.prefab
+  artifactKey: Guid(9a1ace720f9f8734e8009ef01aa100a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.032.prefab using Guid(9a1ace720f9f8734e8009ef01aa100a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c631513858e1a1879dea792c0d24ec3') in 0.032716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.027.prefab
+  artifactKey: Guid(593a4e4d2a62ea94aa1cafcb07c0346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.027.prefab using Guid(593a4e4d2a62ea94aa1cafcb07c0346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebffd564921694172c6a4c21d3e5118b') in 0.032706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.037.prefab
+  artifactKey: Guid(5f95ad69a36cb0d418fee5bfe11a1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.037.prefab using Guid(5f95ad69a36cb0d418fee5bfe11a1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daf264ffed2949d892b3cd77f9688ff') in 0.027878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.044.prefab
+  artifactKey: Guid(c29fadf584aa5144f915c853d1dea558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.044.prefab using Guid(c29fadf584aa5144f915c853d1dea558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0001f3ee1e16333de9ecbe6803aa38') in 0.029158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.035.prefab
+  artifactKey: Guid(a450b2c5a584b6545ae2fe6312ee791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.035.prefab using Guid(a450b2c5a584b6545ae2fe6312ee791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b387522d9252880c357124328be800c5') in 0.029916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.045.prefab
+  artifactKey: Guid(f7e3ded5dc9bc784d824c6de69ba6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.045.prefab using Guid(f7e3ded5dc9bc784d824c6de69ba6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fb345c6503c7ac0961fee4a9c50066') in 0.035225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.031.prefab
+  artifactKey: Guid(e0c192ced9b171e42b04e91632e05210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.031.prefab using Guid(e0c192ced9b171e42b04e91632e05210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2c71f04a0cbb7837188bcb19a77bfe') in 0.027917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.039.prefab
+  artifactKey: Guid(ca9e27d695d0c7e4a91d1c09b40e8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.039.prefab using Guid(ca9e27d695d0c7e4a91d1c09b40e8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6bac61ac8ba1292b88e99a26de369a') in 0.036549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.034.prefab
+  artifactKey: Guid(0c7868a361cf58247bc9830ddd226a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.034.prefab using Guid(0c7868a361cf58247bc9830ddd226a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04502ead2cb7dc8261949f676c13cc23') in 0.030786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.025.prefab
+  artifactKey: Guid(cd939d62e5a0f65488589b4b0bd96927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.025.prefab using Guid(cd939d62e5a0f65488589b4b0bd96927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7ff2a344dd782d3a5e9f879fb29884') in 0.031257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.036.prefab
+  artifactKey: Guid(529fa5cc27f29e34c9548f11b9d9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.036.prefab using Guid(529fa5cc27f29e34c9548f11b9d9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b54144cc9b4d9070e27c7694e6371ce') in 0.029590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.042.prefab
+  artifactKey: Guid(378f9b5a62390aa46879eafa28a539c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.042.prefab using Guid(378f9b5a62390aa46879eafa28a539c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1287ec863a16facc9832baf2fa8e9c') in 0.032880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.038.prefab
+  artifactKey: Guid(0933a7d3923de794b94c9f2f727ef552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.038.prefab using Guid(0933a7d3923de794b94c9f2f727ef552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c41e2d0013ea2b8558071e5e96c058') in 0.032015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.029.prefab
+  artifactKey: Guid(d10b03a24ffb4154eb51ada6464c9962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.029.prefab using Guid(d10b03a24ffb4154eb51ada6464c9962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266ca76345b3d90e1bf5abf48949be17') in 0.038029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.020.prefab
+  artifactKey: Guid(58794699297e42349a4ba6c9f5fd66c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.020.prefab using Guid(58794699297e42349a4ba6c9f5fd66c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6baf0dd1f05d634ab9b03747bd52afc') in 0.037619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.024.prefab
+  artifactKey: Guid(8183410cc1ce3ed46af43cb24da259d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.024.prefab using Guid(8183410cc1ce3ed46af43cb24da259d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fc896cd189548c38aae5db07e5be33') in 0.029166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.043.prefab
+  artifactKey: Guid(f8e2e32a0d5f1b649aa4a09eb0b142e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.043.prefab using Guid(f8e2e32a0d5f1b649aa4a09eb0b142e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f934de09a2ead67ebeaeae9f94479f8e') in 0.015931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.040.prefab
+  artifactKey: Guid(f47a7a407704bb041b33ca0deee1d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.040.prefab using Guid(f47a7a407704bb041b33ca0deee1d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621840504e255a2d7aadc1ffb977f0b') in 0.014700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.021.prefab
+  artifactKey: Guid(0eff08628c9bd144a85463bf2f629ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.021.prefab using Guid(0eff08628c9bd144a85463bf2f629ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed696dcc7eb43f2d703f2bb4e8a3c49') in 0.015182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.041.prefab
+  artifactKey: Guid(db03b0b4d1ef4c7448e384f4d6f7bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.041.prefab using Guid(db03b0b4d1ef4c7448e384f4d6f7bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43472a6a5a5b83fd13b27d6f04bf203') in 0.019021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.018.prefab
+  artifactKey: Guid(5da0663e0de37ec46af8de6b94d25a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.018.prefab using Guid(5da0663e0de37ec46af8de6b94d25a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa81ef5c5b0ab458d859a1d95e01428') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.033.prefab
+  artifactKey: Guid(662e947bb8377cd478f2b9ea56870750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.033.prefab using Guid(662e947bb8377cd478f2b9ea56870750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185463c61d0dd7253156710c60c3136') in 0.029811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.875075 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.009.prefab
+  artifactKey: Guid(9c0c9ec8ed2dc7b45918e8b84d6258db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.009.prefab using Guid(9c0c9ec8ed2dc7b45918e8b84d6258db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6590abe306592c960e37a511f8972840') in 0.032945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.003.prefab
+  artifactKey: Guid(1df66ddcc90154144a4314fe19d1c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.003.prefab using Guid(1df66ddcc90154144a4314fe19d1c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3625b5b25ed2ff93e21982a2c0d9a7') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.014.prefab
+  artifactKey: Guid(316eb88121dfccc48ae8a94599eef56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.014.prefab using Guid(316eb88121dfccc48ae8a94599eef56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842678ec91c20f160330d214cc45c2fb') in 0.026888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.012.prefab
+  artifactKey: Guid(899be796231db064fad57f0b3835cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.012.prefab using Guid(899be796231db064fad57f0b3835cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868f6622e0bd0f998971144094f94aec') in 0.031460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.010.prefab
+  artifactKey: Guid(141db1fe36f04784db52057332e2f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.010.prefab using Guid(141db1fe36f04784db52057332e2f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7efad96a90f2ab70e7f3856f4e9f6f5') in 0.024825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.011.prefab
+  artifactKey: Guid(1b091ca11c3a4a34da842fc3e7d01982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.011.prefab using Guid(1b091ca11c3a4a34da842fc3e7d01982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b6388cfc0e42709108df9996b0c41') in 0.024402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.007.prefab
+  artifactKey: Guid(b3164b8e5db8e574f9ecdf6c646ebbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.007.prefab using Guid(b3164b8e5db8e574f9ecdf6c646ebbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1546b5e04999c50652242ec97715e89d') in 0.026412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.013.prefab
+  artifactKey: Guid(209c9527e51fed445a6c740df944ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.013.prefab using Guid(209c9527e51fed445a6c740df944ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e70562a1589808863daa1c64d61f971') in 0.034446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.015.prefab
+  artifactKey: Guid(14cbdd4d2d8c8494cb1768c7b0077e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.015.prefab using Guid(14cbdd4d2d8c8494cb1768c7b0077e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ee6fa7369a85520408543cca6ff41e') in 0.024791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.004.prefab
+  artifactKey: Guid(69e9c63dd809bb84ba501943dec72ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.004.prefab using Guid(69e9c63dd809bb84ba501943dec72ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b552051e41c68ea81cb9e1524a831949') in 0.028522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.017.prefab
+  artifactKey: Guid(93961614f2686924aba9924a01c7e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.017.prefab using Guid(93961614f2686924aba9924a01c7e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a446783fa77edba2c386ce922fa83a') in 0.024135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.005.prefab
+  artifactKey: Guid(d3a2cf1410990ef418da39184f3dda6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.005.prefab using Guid(d3a2cf1410990ef418da39184f3dda6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b59218c99c901fbcde00bb05a29df60') in 0.024194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.006.prefab
+  artifactKey: Guid(9cc54a0f39c87444d998486381462d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.006.prefab using Guid(9cc54a0f39c87444d998486381462d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a998a32b7b508fef20148ca79d6d23d') in 0.022922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.008.prefab
+  artifactKey: Guid(d493cc6690fc2974fa3676aa9a275673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.008.prefab using Guid(d493cc6690fc2974fa3676aa9a275673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb966ccb0c67ef8a5277b94791056b5c') in 0.023024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.016.prefab
+  artifactKey: Guid(17cf0e2c68a0cad479155297db35cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.016.prefab using Guid(17cf0e2c68a0cad479155297db35cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3453a993321211f839b2ee8ea45b723c') in 0.022641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.805343 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.046.prefab
+  artifactKey: Guid(a7bdaaed2429f96439e02ecf0d6af4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.046.prefab using Guid(a7bdaaed2429f96439e02ecf0d6af4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d908a4f95f290bc7ef6f998982d3d6') in 0.017942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.048.prefab
+  artifactKey: Guid(d0f14ce62b961e1408bf408ea1209005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.048.prefab using Guid(d0f14ce62b961e1408bf408ea1209005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363f53afa740669042c02a742d03fe3') in 0.032097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.050.prefab
+  artifactKey: Guid(487b574b35f1a1e468909fff70115bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.050.prefab using Guid(487b574b35f1a1e468909fff70115bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cf011c7967b3bffa3f94ba1befa8b3') in 0.030305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.047.prefab
+  artifactKey: Guid(990e2912a6e9fbd49b75e74f96295a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.047.prefab using Guid(990e2912a6e9fbd49b75e74f96295a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060566ff0403d885dc5e5f98a06ee964') in 0.033461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.052.prefab
+  artifactKey: Guid(19e78610a4b8f1d4ebac9ded7446d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.052.prefab using Guid(19e78610a4b8f1d4ebac9ded7446d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5655f44d48a75dfce48ca0473ff0a78') in 0.032394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287869 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.053.prefab
+  artifactKey: Guid(93c63c4784c7bae40978a8dfca0257c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.053.prefab using Guid(93c63c4784c7bae40978a8dfca0257c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb542559b1685de26526bcc6a083edf') in 0.045596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.056.prefab
+  artifactKey: Guid(37cee104c1f135b46b0f4a854a3ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.056.prefab using Guid(37cee104c1f135b46b0f4a854a3ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b13c22c8e5c12fca142d46f0e8d0ac') in 0.030895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.078.prefab
+  artifactKey: Guid(762c1a61c9d19aa4a86073810e77a328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.078.prefab using Guid(762c1a61c9d19aa4a86073810e77a328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59db3304e9fa15c16b26cf27a596c310') in 0.031787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.060.prefab
+  artifactKey: Guid(893e2061cf2401b409d50692749a39f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.060.prefab using Guid(893e2061cf2401b409d50692749a39f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ef4cc343154a214adf7580e0082a36') in 0.027406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.077.prefab
+  artifactKey: Guid(aa5ae0200730f1a4f9c7b826278fae9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.077.prefab using Guid(aa5ae0200730f1a4f9c7b826278fae9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6988a429c4d5b4343afb33a16357d90') in 0.032322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.062.prefab
+  artifactKey: Guid(6da5e20d028f3364f8c52578647a9b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.062.prefab using Guid(6da5e20d028f3364f8c52578647a9b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356a8830c9b941d7dcff3f72bab5c329') in 0.029559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.075.prefab
+  artifactKey: Guid(a72017f8fedbe6d449cdb9001d44ffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.075.prefab using Guid(a72017f8fedbe6d449cdb9001d44ffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dd002476cc314e4a21c88fb3ed5d88') in 0.030990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.076.prefab
+  artifactKey: Guid(243819cd6723eeb41b86876397e9dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.076.prefab using Guid(243819cd6723eeb41b86876397e9dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f98eb2eb63da0f30c9087c2cc095c0b') in 0.031521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.086.prefab
+  artifactKey: Guid(20affd5e2d5935e408ecd5274cc59618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.086.prefab using Guid(20affd5e2d5935e408ecd5274cc59618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81391a26966bcc22b82671d3bf126aa5') in 0.032568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.095.prefab
+  artifactKey: Guid(8ecf485eca33e7b4aae08ed49b1c890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.095.prefab using Guid(8ecf485eca33e7b4aae08ed49b1c890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8ab043aab693848b8d181d7a8ae7d4') in 0.031525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.088.prefab
+  artifactKey: Guid(39d8f3321762fed4fa4a2654d0a11820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.088.prefab using Guid(39d8f3321762fed4fa4a2654d0a11820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d34441b10fb65fd3a6bcb209fd87d2e') in 0.034565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.104.prefab
+  artifactKey: Guid(f6a60ec9ecb09b548b6cb15274e74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.104.prefab using Guid(f6a60ec9ecb09b548b6cb15274e74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53eee619388a30ab4ab4ff8e0eacfab') in 0.034657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.087.prefab
+  artifactKey: Guid(05ba4ad51df81a1458d5e302e23ebc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.087.prefab using Guid(05ba4ad51df81a1458d5e302e23ebc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164c10e18a8fedfbea140828c2ce5e4e') in 0.029639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.103.prefab
+  artifactKey: Guid(1e9fcebd41808d24482f58f225892099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.103.prefab using Guid(1e9fcebd41808d24482f58f225892099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923e03abe016bebd79f2a4ee6fc7f4e4') in 0.031097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.106.prefab
+  artifactKey: Guid(425fcd653d7fa9048bdb41b233efeb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.106.prefab using Guid(425fcd653d7fa9048bdb41b233efeb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c06bd7b3717a0f7a81a88419b87acc') in 0.029927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.098.prefab
+  artifactKey: Guid(b9a32e149f7d17444ac77716521ba6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.098.prefab using Guid(b9a32e149f7d17444ac77716521ba6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6729ade126872e65a6e21b79e1f113c6') in 0.034358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.099.prefab
+  artifactKey: Guid(135b62057304f3b4faff32da7ce101e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.099.prefab using Guid(135b62057304f3b4faff32da7ce101e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c04825c00240458160334a01f27fe9b') in 0.030983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.059.prefab
+  artifactKey: Guid(bc8a5f8002f959a4e99c73215fafa76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.059.prefab using Guid(bc8a5f8002f959a4e99c73215fafa76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b080be8633d69f8c7f2c9d91822c03a') in 0.035749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.097.prefab
+  artifactKey: Guid(a68adf8249028de498ba08f13fe16c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.097.prefab using Guid(a68adf8249028de498ba08f13fe16c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1f5ce9d5dcf427ecf3972b540f74b2') in 0.031907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.002.prefab
+  artifactKey: Guid(8d4f711a44c049644a1287ba366d4ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.002.prefab using Guid(8d4f711a44c049644a1287ba366d4ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d86444cc96f8b68e853f020d3f59183') in 0.043906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.070.prefab
+  artifactKey: Guid(4d843ebfbf682524899a8f740de75c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.070.prefab using Guid(4d843ebfbf682524899a8f740de75c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c9608c5d8ba22d1b0032a803dff423') in 0.034218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.057.prefab
+  artifactKey: Guid(54a9708b6ba11b4459c8b99c841d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.057.prefab using Guid(54a9708b6ba11b4459c8b99c841d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f77388697aa047af1a67717a9cf09ae') in 0.031332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.074.prefab
+  artifactKey: Guid(1452cb3eb07174941a494dadbd3effa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.074.prefab using Guid(1452cb3eb07174941a494dadbd3effa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8050d064dd7d1843250c6ac771d05826') in 0.032845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.063.prefab
+  artifactKey: Guid(2f8bb78b3af3a2b45948f88ab07e8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.063.prefab using Guid(2f8bb78b3af3a2b45948f88ab07e8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21c8767b665c3a15b05fb6f81703ca') in 0.030353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.069.prefab
+  artifactKey: Guid(54bf5236511ed9640823a5daf0bbcd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.069.prefab using Guid(54bf5236511ed9640823a5daf0bbcd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c200b3e069102ef500c4fe313238fe1b') in 0.029278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.084.prefab
+  artifactKey: Guid(8ed6169404b5191458aa214bbd6aab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.084.prefab using Guid(8ed6169404b5191458aa214bbd6aab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2770b9127d0c9252434fb6c4282c3b5') in 0.032102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.001.prefab
+  artifactKey: Guid(b9472e14ddb456f47b3626858390ed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.001.prefab using Guid(b9472e14ddb456f47b3626858390ed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab2c15b0e2e705122d24a96f427b9a') in 0.207666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.080.prefab
+  artifactKey: Guid(3a9d96712dccb53458c65926f9c6a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.080.prefab using Guid(3a9d96712dccb53458c65926f9c6a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f166324a0a1e3ab7e7fb81978c1acfc5') in 0.038329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.073.prefab
+  artifactKey: Guid(5f5bbbddef1c75b4f8b303893c00bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.073.prefab using Guid(5f5bbbddef1c75b4f8b303893c00bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2322ba399a851818c525663fc13f16f') in 0.028955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.068.prefab
+  artifactKey: Guid(f7ff0f5204431b94caf06ee25a87a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.068.prefab using Guid(f7ff0f5204431b94caf06ee25a87a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d159f2d689d3713096b8982432460b') in 0.033889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Kitaplik.prefab
+  artifactKey: Guid(1ad31bb545404c64fae9e53c3687fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Kitaplik.prefab using Guid(1ad31bb545404c64fae9e53c3687fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e5400b272ced4ada9f7b841b4b5276') in 0.036422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.089.prefab
+  artifactKey: Guid(29feed50758fa67408227cb2e1553788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.089.prefab using Guid(29feed50758fa67408227cb2e1553788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7b8904218b889f1eec293a5debe16d') in 0.031020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.085.prefab
+  artifactKey: Guid(eb732db4d24487c42b7e064849688fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.085.prefab using Guid(eb732db4d24487c42b7e064849688fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6547f40a98987ace53a2f0de39bc044b') in 0.031696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/kitap2.prefab
+  artifactKey: Guid(b300f1e19af099d4c85e4a68533aa51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/kitap2.prefab using Guid(b300f1e19af099d4c85e4a68533aa51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ea272bdafef8a725bedb7bfe1d64d') in 0.031127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.067.prefab
+  artifactKey: Guid(8be95c5adbe194340a81186af2be2842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.067.prefab using Guid(8be95c5adbe194340a81186af2be2842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74216485174013e461e3c4ef2685261f') in 0.041245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.082.prefab
+  artifactKey: Guid(b71d4e2bcf34d0349a01031925d7cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.082.prefab using Guid(b71d4e2bcf34d0349a01031925d7cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb5206b125d7cf8786ba11d54e35ba1') in 0.031720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.058.prefab
+  artifactKey: Guid(a9e309179413416499e14bb830b08106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.058.prefab using Guid(a9e309179413416499e14bb830b08106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1245477f780afb5fc523456d928105') in 0.029120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.072.prefab
+  artifactKey: Guid(7866f129becf30f4d85e4cdd2381c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.072.prefab using Guid(7866f129becf30f4d85e4cdd2381c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f069ba09ff30d97a219d157e8b0503c') in 0.028784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.092.prefab
+  artifactKey: Guid(683a136bc8e492c43bf9e3bd574b1ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.092.prefab using Guid(683a136bc8e492c43bf9e3bd574b1ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8632359bb99884fe9f8582a023b5395f') in 0.024106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.065.prefab
+  artifactKey: Guid(5490be5e3b042474096c3d8fe1f42264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.065.prefab using Guid(5490be5e3b042474096c3d8fe1f42264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae259a97d5ec57971bc7b29533554f46') in 0.028838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.083.prefab
+  artifactKey: Guid(484606488f964684aa89f2797ea0c3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.083.prefab using Guid(484606488f964684aa89f2797ea0c3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc3c667bbefb770c2197ad185d71cc0') in 0.054851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.096.prefab
+  artifactKey: Guid(ab89854ec02e9374caddbfcfed6ba196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.096.prefab using Guid(ab89854ec02e9374caddbfcfed6ba196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f417e329eaa6ce8176af5f2f63b8b') in 0.029712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/kitap.prefab
+  artifactKey: Guid(5b78f5fb41113d04cb313bab9938929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/kitap.prefab using Guid(5b78f5fb41113d04cb313bab9938929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6800a71b694b0b33d3a976c78973b7') in 0.035235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.107.prefab
+  artifactKey: Guid(7ca83d216b3773643bb3099c8c8c8f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.107.prefab using Guid(7ca83d216b3773643bb3099c8c8c8f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237ccab8d818bd6add20250fcb6fc235') in 0.042842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.105.prefab
+  artifactKey: Guid(c4047e307f625ac4397cccd63ffee42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.105.prefab using Guid(c4047e307f625ac4397cccd63ffee42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2995ce1cb5c5b3a3ba83149f1b4d98e7') in 0.042830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.090.prefab
+  artifactKey: Guid(b9b95a2211a45a7469bd86b989f8f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.090.prefab using Guid(b9b95a2211a45a7469bd86b989f8f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548c3dcff8abab5c6a1bdeb7d38e2600') in 0.027386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.061.prefab
+  artifactKey: Guid(bd2fe295deb8b63428492bce4c18397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.061.prefab using Guid(bd2fe295deb8b63428492bce4c18397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771b8e41dc4fdc0a6d3dfafadf0bac6e') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.054.prefab
+  artifactKey: Guid(6e827de3cb3b3574aa2c86b65ef05b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.054.prefab using Guid(6e827de3cb3b3574aa2c86b65ef05b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933885771b0e6716bb451540d3bcaf3f') in 0.023492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.071.prefab
+  artifactKey: Guid(317e6bbecf0cb294e96553f98f24d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.071.prefab using Guid(317e6bbecf0cb294e96553f98f24d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4d99210caa9e230bd5c4b7a11bbe28') in 0.021141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Cube.055.prefab
+  artifactKey: Guid(367db01cb7f413842b4a64f07010f220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Cube.055.prefab using Guid(367db01cb7f413842b4a64f07010f220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc089a9a08890b1a03ed157b72c5c7d8') in 0.021392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.096220 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Zemin.prefab
+  artifactKey: Guid(fa29c774ffc3814409be0b28f6f099c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Zemin.prefab using Guid(fa29c774ffc3814409be0b28f6f099c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36006a58a61515a69e8de9eaca4cdc17') in 0.042580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.398534 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Bilgisayar 1.prefab
+  artifactKey: Guid(8a4511a9a7524c3478932ea97ecaf0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Bilgisayar 1.prefab using Guid(8a4511a9a7524c3478932ea97ecaf0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f6864a0248e83a23f7a67f47e9cf2') in 0.047647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.457341 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Kitaplik 1.prefab
+  artifactKey: Guid(c3f3d81947cc2ef42b6f005e6178b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Kitaplik 1.prefab using Guid(c3f3d81947cc2ef42b6f005e6178b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bc5907e3b1a76a8da408ee7707b262') in 0.041637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.001 1.prefab
+  artifactKey: Guid(5cead192e52047d4cbc58d9429932503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.001 1.prefab using Guid(5cead192e52047d4cbc58d9429932503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0891d970f8378383df8115bdbe6f3578') in 0.039532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.002 1.prefab
+  artifactKey: Guid(dd1afbcc32949ab4da7d1e95653ad020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/KitaplikKapak.002 1.prefab using Guid(dd1afbcc32949ab4da7d1e95653ad020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a321e93a4ff77065b3c2b3043dc72f') in 0.046224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.185355 seconds.
+  path: Assets/Anarşi Tasarım/Prefabs/Kitaplar.prefab
+  artifactKey: Guid(beec437130e68ab409d1631f8eafe5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anarşi Tasarım/Prefabs/Kitaplar.prefab using Guid(beec437130e68ab409d1631f8eafe5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd2db99379f846b0c1714e909f54b6') in 0.030534 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNİTY PROJELER\CuteRoom\CuteRoom\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2487ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2093ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (739ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (909ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (630ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (54.5 KB). Loaded Objects now: 3972.
+Memory consumption went from 125.1 MB to 125.0 MB.
+Total: 7.030100 ms (FindLiveObjects: 0.804600 ms CreateObjectMapping: 0.633300 ms MarkObjects: 5.478000 ms  DeleteObjects: 0.112700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
